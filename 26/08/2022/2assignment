@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+void main()
+{
+    char string[100];
+    gets(string);
+    int length=0,flag=1,i,j,n;
+    for(i=0;string[i]!='\0';i++)
+    {
+        length++;
+        n=length/2;
+    }
+        j=length-1;
+    for(i=0;i<n;i++)
+    {
+       if(string[i]!=string[j-i])
+        {
+            flag=0;
+            break;
+        }
+    }
+    if(flag==1)
+    {
+        printf("PALINDROME");
+    }
+    else
+    {
+        printf("NOT PALINDROME");
+    }
+}
+
+INPUT AND OUTPUT:
+
+1) madam
+   PALINDROME
+   
+ 2)apple
+   NOT PALINDROME
