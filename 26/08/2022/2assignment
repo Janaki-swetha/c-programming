@@ -1,4 +1,4 @@
-#include<stdio.h>
+I#include<stdio.h>
 
 void main()
 {
@@ -35,4 +35,4 @@ INPUT AND OUTPUT:
    PALINDROME
    
  2)apple
-   NOT PALINDROME
+   NOT PALINDROME.  
